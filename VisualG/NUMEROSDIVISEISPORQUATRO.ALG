@@ -1,26 +1,26 @@
 Algoritmo "NUMEROSDIVISEISPORQUATRO"
-// Disciplina   : [Lógica de Programação com Javasript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com Javasript]
 // Professor   : Jailson 
-// Descrição   : Descrever números dívisiveís por 4
+// DescriÃ§Ã£o   : Descrever nÃºmeros dÃ­visiveÃ­s por 4
 // Autor(a)    : Danielly Alves Silva
 // Data atual  : 04/04/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 contadora: inteiro
 divisivel: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 contadora <- 1
-Escreval("Digite um número:")
+Escreval("Digite um nÃºmero:")
 leia(divisivel)
 repita
 se (divisivel mod 4)=0 entao
-escreval("Esse número é divisivel por 4.")
+escreval("Esse nÃºmero Ã© divisivel por 4.")
 senao
-Escreval("Esse número não é divísivel por 4.")
+Escreval("Esse nÃºmero nÃ£o Ã© divÃ­sivel por 4.")
 fimse
 contadora <- contadora+1
-ate contadora>200
+ate contadora>1
 
 Fimalgoritmo
